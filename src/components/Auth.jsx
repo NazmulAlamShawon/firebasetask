@@ -30,6 +30,9 @@ export const Auth = () => {
    return (
     <div> 
       <h2> form test</h2>
+      {/*  sign up form */}
+      <div>
+                <h2> signin </h2>      
         <input placeholder="emaill"
          id="email" 
          type="text"
@@ -44,7 +47,14 @@ export const Auth = () => {
         />
          <button onClick={signIn}>  sign in</button>
          {/* <button onClick={logout}> logout</button> */}
+      </div>
+      {/*  sign in form */}
+      <h2> Login</h2>
+      <input  placeholder='email' type='email' id='email'/>
+      <input placeholder='password' type='password' id='password'/>
+      <button> sign out</button>
 
+      
     </div>
   )
 }
